@@ -1,10 +1,8 @@
 html {
-    max-height: 1024px;
-    max-width: 320px;
+    min-width: 320px;
 }
 body {
     font-family: 'TT Lakes';
-    max-height: 1024px;
     min-width: 320px;
     box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
 }
