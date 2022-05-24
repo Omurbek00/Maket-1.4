@@ -1,0 +1,88 @@
+html {
+    height: 1024px;
+    width: 320px;
+}
+body {
+    font-family: 'TT Lakes';
+    height: 1024px;
+    width: 320px;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+    padding: 0;
+    margin: 0;
+}
+.button {
+    border: none;
+    background: white;
+}
+.menuburger {
+    display: flex;
+    padding: 20px 18px 50px 18px;
+}
+.menuburger__group {
+    padding: 0 79px 0 10px;
+}
+.swipe {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0 0 0 24px;
+    height: 400px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #7E7E82;
+}
+a:hover::before {
+    content: '';
+    height: 25px;
+    width: 4px;
+    background: #41F6D7;
+    border-radius: 20px;
+    position:absolute;
+    left: 1px;
+}
+li {
+    margin: 0 0 32px 0;
+}
+.swipe__text8 {
+    margin: 0 0 268px 0;
+}
+.aside__footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 16px 24px;
+    margin: 268px 0 0 0;
+}
+.aside__call  {
+    padding: 0 16px 0 0;
+}
+.aside__chat {
+    padding: 0 10px 0 0 ;
+}
+.aside__mail {
+    font-size: 16px;
+    padding: 0 0 12px 24px;
+}
+.aside__number {
+    font-size: 24px;
+    padding: 0 0 40px 24px;
+    font-weight: bold;
+    color: #1B1C21;
+}
+.lang__ru{
+    padding: 0 0 0 24px;
+}
+.lang__ch {
+    padding: 0 7px 0 7px;
+}
+.lang__ru:hover {
+    color: #7E7E82;
+}
+.lang__en:hover {
+    color: #7E7E82;
+}
+.lang__ch:hover {
+    color: #7E7E82;
+}
