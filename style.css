@@ -47,6 +47,9 @@ a {
 a:hover {
     color: #7E7E82;
 }
+li {
+    cursor: pointer;
+}
 li:hover::before {
     cursor: pointer;
     content: '';
